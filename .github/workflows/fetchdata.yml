@@ -4,7 +4,8 @@ jobs:
   refresh-feed:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: checkout
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.head_ref }}
       - name: Fetch API Data 📦
@@ -12,9 +13,10 @@ jobs:
         with:
           endpoint: https://brasilapi.com.br/api/cnpj/v1/30917256000129
           configuration: '{ "method": "GET" }'
-      - name: Push
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
         with:
-          repository: .
-          commit_message: Add data
-          add_options: "-u"
+          author_name: Guilherme Neves
+          author_email: guilhermeasn@yahoo.com.br
+          message: 'Your commit message'
+          add: '.'
