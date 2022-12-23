@@ -1,76 +1,100 @@
 {
   "acumulado": false,
-  "dataApuracao": "23/11/2013",
-  "dataProximoConcurso": "27/11/2013",
+  "dataApuracao": "31/12/2013",
+  "dataProximoConcurso": "02/01/2014",
   "dezenasSorteadasOrdemSorteio": [
-    "21",
-    "56",
-    "36",
-    "09",
-    "13",
-    "27"
+    "30",
+    "47",
+    "53",
+    "38",
+    "20",
+    "36"
   ],
   "exibirDetalhamentoPorCidade": true,
   "id": null,
   "indicadorConcursoEspecial": 1,
   "listaDezenas": [
-    "09",
-    "13",
-    "21",
-    "27",
+    "20",
+    "30",
     "36",
-    "56"
+    "38",
+    "47",
+    "53"
   ],
   "listaDezenasSegundoSorteio": null,
   "listaMunicipioUFGanhadores": [
     {
       "ganhadores": 1,
-      "municipio": "MONTANHA",
+      "municipio": "MACEIÓ",
       "nomeFatansiaUL": "",
       "posicao": 1,
       "serie": "",
-      "uf": "ES"
+      "uf": "AL"
+    },
+    {
+      "ganhadores": 1,
+      "municipio": "TEOFILÂNDIA",
+      "nomeFatansiaUL": "",
+      "posicao": 1,
+      "serie": "",
+      "uf": "BA"
+    },
+    {
+      "ganhadores": 1,
+      "municipio": "CURITIBA",
+      "nomeFatansiaUL": "",
+      "posicao": 1,
+      "serie": "",
+      "uf": "PR"
+    },
+    {
+      "ganhadores": 1,
+      "municipio": "PALOTINA",
+      "nomeFatansiaUL": "",
+      "posicao": 1,
+      "serie": "",
+      "uf": "PR"
     }
   ],
   "listaRateioPremio": [
     {
       "descricaoFaixa": "6 acertos",
       "faixa": 1,
-      "numeroDeGanhadores": 1,
-      "valorPremio": 23634735.21
+      "numeroDeGanhadores": 4,
+      "valorPremio": 56169465.02
     },
     {
       "descricaoFaixa": "5 acertos",
       "faixa": 2,
-      "numeroDeGanhadores": 229,
-      "valorPremio": 11349.56
+      "numeroDeGanhadores": 1147,
+      "valorPremio": 38701.2
     },
     {
       "descricaoFaixa": "4 acertos",
       "faixa": 3,
-      "numeroDeGanhadores": 14109,
-      "valorPremio": 263.16
+      "numeroDeGanhadores": 90376,
+      "valorPremio": 701.67
     }
   ],
   "listaResultadoEquipeEsportiva": null,
   "localSorteio": "Auditório",
-  "nomeMunicipioUFSorteio": "BRASILIA, DF",
+  "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
   "nomeTimeCoracaoMesSorte": "",
-  "numero": 1550,
-  "numeroConcursoAnterior": 1549,
-  "numeroConcursoFinal_0_5": 1555,
-  "numeroConcursoProximo": 1551,
+  "numero": 1560,
+  "numeroConcursoAnterior": 1559,
+  "numeroConcursoFinal_0_5": 1565,
+  "numeroConcursoProximo": 1561,
   "numeroJogo": 2,
-  "observacao": "",
+  "observacao": "Sorteio realizado em Estúdio de TV.",
   "premiacaoContingencia": null,
   "tipoJogo": "MEGA_SENA",
   "tipoPublicacao": 3,
   "ultimoConcurso": true,
-  "valorArrecadado": 44393694.0,
-  "valorAcumuladoConcurso_0_5": 3009425.14,
-  "valorAcumuladoConcursoEspecial": 55313620.88,
+  "valorArrecadado": 758218978.0,
+  "valorAcumuladoConcurso_0_5": 0.0,
+  "valorAcumuladoConcursoEspecial": 0.0,
   "valorAcumuladoProximoConcurso": 0.0,
-  "valorEstimadoProximoConcurso": 2500000.0,
+  "valorEstimadoProximoConcurso": 1500000.0,
   "valorSaldoReservaGarantidora": 0.0,
   "valorTotalPremioFaixaUm": 0.0
 }
