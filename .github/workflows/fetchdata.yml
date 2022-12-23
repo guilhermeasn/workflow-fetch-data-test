@@ -9,7 +9,7 @@ jobs:
         with:
           endpoint: https://brasilapi.com.br/api/cnpj/v1/30917256000129
           configuration: '{ "method": "GET" }'
-          save-location: .
+          save-location: ..
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
