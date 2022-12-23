@@ -13,7 +13,7 @@ jobs:
         env:
           NODE_TLS_REJECT_UNAUTHORIZED: 0
         with:
-          endpoint: http://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/1550
+          endpoint: http://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/1560
           configuration: '{ "method": "GET" }'
           save-location: '.'
 
@@ -22,5 +22,5 @@ jobs:
         with:
           author_name: Guilherme Neves
           author_email: guilhermeasn@yahoo.com.br
-          message: "$fetch-api-data.numero"
+          message: ${{ env.numero }}
           add: '.'
