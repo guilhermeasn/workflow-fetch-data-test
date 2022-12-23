@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch API Data 📦
-        uses: JamesIves/fetch-api-data-action@v2
+        uses: gautemo/fetch-api-data-action@1.0.2
         with:
-          endpoint: http://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/
-          configuration: '{ "method": "GET" }'
+          url: 'http://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/'
+          file: './data.json'
