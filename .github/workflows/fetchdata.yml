@@ -7,5 +7,5 @@ jobs:
       - name: Fetch API Data 📦
         uses: gautemo/fetch-api-data-action@1.0.2
         with:
-          url: 'http://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/'
+          url: 'https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/'
           file: './data.json'
