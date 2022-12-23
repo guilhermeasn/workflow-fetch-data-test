@@ -10,6 +10,9 @@ jobs:
           endpoint: https://brasilapi.com.br/api/cnpj/v1/30917256000129
           configuration: '{ "method": "GET" }'
           save-location: .
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
       - name: Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
