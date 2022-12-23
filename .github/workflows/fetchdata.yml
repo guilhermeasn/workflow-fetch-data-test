@@ -7,5 +7,5 @@ jobs:
       - name: Fetch API Data 📦
         uses: JamesIves/fetch-api-data-action@v2
         with:
-          endpoint: https://registro.br/v2/ajax/whois/?qr=fdfdkjsfvsdafjasdafnbko.com.br
+          endpoint: https://brasilapi.com.br/api/cnpj/v1/30917256000129
           configuration: '{ "method": "GET" }'
