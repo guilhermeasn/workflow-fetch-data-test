@@ -18,7 +18,7 @@ jobs:
           save-location: '.'
 
       - name: Sorteio
-        run: echo ${{ env }}
+        run: echo ${{ env['fetch-api-data'] }}
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
