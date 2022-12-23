@@ -7,5 +7,5 @@ jobs:
       - name: Fetch API Data 📦
         uses: gautemo/fetch-api-data-action@1.0.2
         with:
-          url: 'https://registro.br/v2/ajax/whois/?qr=gnmotors.com.br'
-          file: './data.json'
+          url: 'https://registro.br/v2/ajax/whois/?qr=fdfdkjsfvsdafjasdafnbko.com.br'
+          file: 'j.json'
