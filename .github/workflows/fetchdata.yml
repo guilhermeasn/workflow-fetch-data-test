@@ -4,18 +4,17 @@ jobs:
   refresh-feed:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
       - name: Fetch API Data 📦
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: https://brasilapi.com.br/api/cnpj/v1/30917256000129
           configuration: '{ "method": "GET" }'
-      - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
       - name: Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           repository: .
           commit_message: Add data
           add_options: "-u"
-          create_branch: true
