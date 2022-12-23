@@ -15,6 +15,7 @@ jobs:
       - name: Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          repository: .
           commit_message: Add data
           add_options: "-u"
           push_options: --force
