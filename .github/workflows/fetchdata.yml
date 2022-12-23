@@ -17,13 +17,11 @@ jobs:
           configuration: '{ "method": "GET" }'
           save-location: '.'
 
-      - name: Sorteio
-        run: echo ${{ env['fetch-api-data']['numero'] }}
-
       - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: Guilherme Neves
-          author_email: guilhermeasn@yahoo.com.br
-          message: 'fetch data'
-          add: '.'
+      #   uses: EndBug/add-and-commit@v9
+      #   with:
+      #     author_name: Guilherme Neves
+      #     author_email: guilhermeasn@yahoo.com.br
+      #     message: 'fetch data'
+      #     add: '.'
+        run: commit.sh
