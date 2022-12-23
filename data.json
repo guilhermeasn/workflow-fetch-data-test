@@ -1,35 +1,35 @@
 {
   "acumulado": false,
-  "dataApuracao": "05/06/2013",
-  "dataProximoConcurso": "08/06/2013",
+  "dataApuracao": "23/11/2013",
+  "dataProximoConcurso": "27/11/2013",
   "dezenasSorteadasOrdemSorteio": [
-    "57",
-    "43",
-    "18",
-    "59",
-    "10",
-    "31"
+    "21",
+    "56",
+    "36",
+    "09",
+    "13",
+    "27"
   ],
   "exibirDetalhamentoPorCidade": true,
   "id": null,
   "indicadorConcursoEspecial": 1,
   "listaDezenas": [
-    "10",
-    "18",
-    "31",
-    "43",
-    "57",
-    "59"
+    "09",
+    "13",
+    "21",
+    "27",
+    "36",
+    "56"
   ],
   "listaDezenasSegundoSorteio": null,
   "listaMunicipioUFGanhadores": [
     {
       "ganhadores": 1,
-      "municipio": "MIRANTE DO PARANAPANEMA",
+      "municipio": "MONTANHA",
       "nomeFatansiaUL": "",
       "posicao": 1,
       "serie": "",
-      "uf": "SP"
+      "uf": "ES"
     }
   ],
   "listaRateioPremio": [
@@ -37,40 +37,40 @@
       "descricaoFaixa": "6 acertos",
       "faixa": 1,
       "numeroDeGanhadores": 1,
-      "valorPremio": 22610179.37
+      "valorPremio": 23634735.21
     },
     {
       "descricaoFaixa": "5 acertos",
       "faixa": 2,
-      "numeroDeGanhadores": 81,
-      "valorPremio": 30598.43
+      "numeroDeGanhadores": 229,
+      "valorPremio": 11349.56
     },
     {
       "descricaoFaixa": "4 acertos",
       "faixa": 3,
-      "numeroDeGanhadores": 7055,
-      "valorPremio": 501.86
+      "numeroDeGanhadores": 14109,
+      "valorPremio": 263.16
     }
   ],
   "listaResultadoEquipeEsportiva": null,
-  "localSorteio": "Caminhão da Sorte",
-  "nomeMunicipioUFSorteio": "MONTE SIÃO, MG",
+  "localSorteio": "Auditório",
+  "nomeMunicipioUFSorteio": "BRASILIA, DF",
   "nomeTimeCoracaoMesSorte": "",
-  "numero": 1500,
-  "numeroConcursoAnterior": 1499,
-  "numeroConcursoFinal_0_5": 1505,
-  "numeroConcursoProximo": 1501,
+  "numero": 1550,
+  "numeroConcursoAnterior": 1549,
+  "numeroConcursoFinal_0_5": 1555,
+  "numeroConcursoProximo": 1551,
   "numeroJogo": 2,
   "observacao": "",
   "premiacaoContingencia": null,
   "tipoJogo": "MEGA_SENA",
   "tipoPublicacao": 3,
   "ultimoConcurso": true,
-  "valorArrecadado": 42334170.0,
-  "valorAcumuladoConcurso_0_5": 2869811.09,
-  "valorAcumuladoConcursoEspecial": 25935444.12,
+  "valorArrecadado": 44393694.0,
+  "valorAcumuladoConcurso_0_5": 3009425.14,
+  "valorAcumuladoConcursoEspecial": 55313620.88,
   "valorAcumuladoProximoConcurso": 0.0,
-  "valorEstimadoProximoConcurso": 3000000.0,
+  "valorEstimadoProximoConcurso": 2500000.0,
   "valorSaldoReservaGarantidora": 0.0,
   "valorTotalPremioFaixaUm": 0.0
 }
