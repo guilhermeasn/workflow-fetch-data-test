@@ -1,1 +1,67 @@
-{"uf":"RJ","cep":"25850000","qsa":[{"pais":null,"nome_socio":"SEBASTIAO NEVES","codigo_pais":null,"faixa_etaria":"Entre 71 a 80 anos","cnpj_cpf_do_socio":"***366837**","qualificacao_socio":"Sócio-Administrador","codigo_faixa_etaria":8,"data_entrada_sociedade":"1996-06-20","identificador_de_socio":2,"cpf_representante_legal":"***000000**","nome_representante_legal":"","codigo_qualificacao_socio":49,"qualificacao_representante_legal":"Sócio-Administrador","codigo_qualificacao_representante_legal":0},{"pais":null,"nome_socio":"LUIZ CARLOS DE ALMEIDA NEVES","codigo_pais":null,"faixa_etaria":"Entre 51 a 60 anos","cnpj_cpf_do_socio":"***618086**","qualificacao_socio":"Sócio","codigo_faixa_etaria":6,"data_entrada_sociedade":"1996-06-20","identificador_de_socio":2,"cpf_representante_legal":"***000000**","nome_representante_legal":"","codigo_qualificacao_socio":22,"qualificacao_representante_legal":"Sócio","codigo_qualificacao_representante_legal":0},{"pais":null,"nome_socio":"ANA LUCIA DE ALMEIDA NEVES","codigo_pais":null,"faixa_etaria":"Entre 51 a 60 anos","cnpj_cpf_do_socio":"***808307**","qualificacao_socio":"Sócio-Administrador","codigo_faixa_etaria":6,"data_entrada_sociedade":"1997-10-24","identificador_de_socio":2,"cpf_representante_legal":"***000000**","nome_representante_legal":"","codigo_qualificacao_socio":49,"qualificacao_representante_legal":"Sócio-Administrador","codigo_qualificacao_representante_legal":0},{"pais":null,"nome_socio":"GUILHERME AUGUSTO SILVA NEVES","codigo_pais":null,"faixa_etaria":"Entre 31 a 40 anos","cnpj_cpf_do_socio":"***122347**","qualificacao_socio":"Sócio-Administrador","codigo_faixa_etaria":4,"data_entrada_sociedade":"2010-05-07","identificador_de_socio":2,"cpf_representante_legal":"***000000**","nome_representante_legal":"","codigo_qualificacao_socio":49,"qualificacao_representante_legal":"Sócio-Administrador","codigo_qualificacao_representante_legal":0}],"cnpj":"30917256000129","pais":null,"email":null,"porte":"EMPRESA DE PEQUENO PORTE","bairro":"QUEIMA SANGUE","numero":"S/N","ddd_fax":"","municipio":"PARAIBA DO SUL","logradouro":"JOAQUIM J DA S XAVIER","cnae_fiscal":2342702,"codigo_pais":null,"complemento":"KM 3","codigo_porte":3,"razao_social":"CERAMICA MARRECAS LTDA","nome_fantasia":"CERAMICA MARRECAS","capital_social":200000,"ddd_telefone_1":"","ddd_telefone_2":"","opcao_pelo_mei":false,"descricao_porte":"","codigo_municipio":5873,"cnaes_secundarios":[{"codigo":810007,"descricao":"Extração de argila e beneficiamento associado"}],"natureza_juridica":"Sociedade Empresária Limitada","situacao_especial":"","opcao_pelo_simples":true,"situacao_cadastral":2,"data_opcao_pelo_mei":null,"data_exclusao_do_mei":null,"cnae_fiscal_descricao":"Fabricação de artefatos de cerâmica e barro cozido para uso na construção, exceto azulejos e pisos","codigo_municipio_ibge":3303708,"data_inicio_atividade":"1980-09-23","data_situacao_especial":null,"data_opcao_pelo_simples":"2007-07-01","data_situacao_cadastral":"2005-02-26","nome_cidade_no_exterior":"","codigo_natureza_juridica":2062,"data_exclusao_do_simples":null,"motivo_situacao_cadastral":0,"ente_federativo_responsavel":"","identificador_matriz_filial":1,"qualificacao_do_responsavel":49,"descricao_situacao_cadastral":"ATIVA","descricao_tipo_de_logradouro":"ESTRADA","descricao_motivo_situacao_cadastral":"SEM MOTIVO","descricao_identificador_matriz_filial":"MATRIZ"}
+{
+  "acumulado": true,
+  "dataApuracao": "17/12/2022",
+  "dataProximoConcurso": "31/12/2022",
+  "dezenasSorteadasOrdemSorteio": [
+    "30",
+    "10",
+    "33",
+    "01",
+    "06",
+    "35"
+  ],
+  "exibirDetalhamentoPorCidade": true,
+  "id": null,
+  "indicadorConcursoEspecial": 1,
+  "listaDezenas": [
+    "01",
+    "06",
+    "10",
+    "30",
+    "33",
+    "35"
+  ],
+  "listaDezenasSegundoSorteio": null,
+  "listaMunicipioUFGanhadores": [],
+  "listaRateioPremio": [
+    {
+      "descricaoFaixa": "6 acertos",
+      "faixa": 1,
+      "numeroDeGanhadores": 0,
+      "valorPremio": 0.0
+    },
+    {
+      "descricaoFaixa": "5 acertos",
+      "faixa": 2,
+      "numeroDeGanhadores": 107,
+      "valorPremio": 22867.86
+    },
+    {
+      "descricaoFaixa": "4 acertos",
+      "faixa": 3,
+      "numeroDeGanhadores": 5232,
+      "valorPremio": 668.1
+    }
+  ],
+  "listaResultadoEquipeEsportiva": null,
+  "localSorteio": "ESPAÇO DA SORTE",
+  "nomeMunicipioUFSorteio": "SÃO PAULO, SP",
+  "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+  "numero": 2549,
+  "numeroConcursoAnterior": 2548,
+  "numeroConcursoFinal_0_5": 2550,
+  "numeroConcursoProximo": 2550,
+  "numeroJogo": 2,
+  "observacao": "",
+  "premiacaoContingencia": null,
+  "tipoJogo": "MEGA_SENA",
+  "tipoPublicacao": 3,
+  "ultimoConcurso": true,
+  "valorArrecadado": 42439333.5,
+  "valorAcumuladoConcurso_0_5": 173509265.45,
+  "valorAcumuladoConcursoEspecial": 173509265.45,
+  "valorAcumuladoProximoConcurso": 173509265.45,
+  "valorEstimadoProximoConcurso": 450000000.0,
+  "valorSaldoReservaGarantidora": 0.0,
+  "valorTotalPremioFaixaUm": 0.0
+}
