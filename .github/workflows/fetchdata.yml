@@ -9,3 +9,8 @@ jobs:
         with:
           endpoint: https://brasilapi.com.br/api/cnpj/v1/30917256000129
           configuration: '{ "method": "GET" }'
+      - name: Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Add data
+          push_options: --force
