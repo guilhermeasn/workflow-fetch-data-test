@@ -1,7 +1,7 @@
-name: Refresh Feed
+name: Refresh Data
 on: [push]
 jobs:
-  refresh-feed:
+  refresh-data:
     runs-on: ubuntu-latest
     steps:
 
@@ -18,11 +18,9 @@ jobs:
           save-location: '.'
 
       - name: Commit changes
-      #   uses: EndBug/add-and-commit@v9
-      #   with:
-      #     author_name: Guilherme Neves
-      #     author_email: guilhermeasn@yahoo.com.br
-      #     message: 'fetch data'
-      #     add: '.'
-        run: commit.sh
-        shell: bash
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Guilherme Neves
+          author_email: guilhermeasn@yahoo.com.br
+          message: 'fetch data'
+          add: '.'
