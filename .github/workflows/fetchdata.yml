@@ -18,5 +18,4 @@ jobs:
           repository: .
           commit_message: Add data
           add_options: "-u"
-          push_options: --force
           create_branch: true
