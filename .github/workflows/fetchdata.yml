@@ -10,6 +10,8 @@ jobs:
 
       - name: Fetch API Data 📦
         uses: JamesIves/fetch-api-data-action@v2
+        env:
+          NODE_TLS_REJECT_UNAUTHORIZED: 0
         with:
           endpoint: http://servicebus2.caixa.gov.br/portaldeloterias/api/megasena
           configuration: '{ "method": "GET" }'
