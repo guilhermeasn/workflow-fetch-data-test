@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch API Data 📦
-        uses: gautemo/fetch-api-data-action@1.0.2
+        uses: JamesIves/fetch-api-data-action@v2
         with:
-          url: 'https://registro.br/v2/ajax/whois/?qr=fdfdkjsfvsdafjasdafnbko.com.br'
-          file: 'j.json'
+          endpoint: https://registro.br/v2/ajax/whois/?qr=fdfdkjsfvsdafjasdafnbko.com.br
+          configuration: '{ "method": "GET", "headers": {"Authorization": "Bearer ${{ secrets.API_TOKEN }}"} }'
