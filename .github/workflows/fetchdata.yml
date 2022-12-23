@@ -25,3 +25,4 @@ jobs:
       #     message: 'fetch data'
       #     add: '.'
         run: commit.sh
+        shell: bash
